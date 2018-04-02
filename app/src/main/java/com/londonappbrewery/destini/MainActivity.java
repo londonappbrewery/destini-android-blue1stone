@@ -9,12 +9,12 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     // TODO: Steps 4 & 8 - Declare member variables here:
-    TextView mStoryTextView;
-    Button mTopButton;
-    Button mBottomButton;
-    int mStoryIndex;
+    private TextView mStoryTextView;
+    private Button mTopButton;
+    private Button mBottomButton;
+    private int mStoryIndex;
 
-    int[] mStoryArray = new int[]{
+    private int[] mStoryArray = new int[]{
             R.string.T1_Story,
             R.string.T2_Story,
             R.string.T3_Story,
@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
             R.string.T5_End,
             R.string.T6_End,
     };
-    int[] mTopButtonArray = new int[]{
+    private int[] mTopButtonArray = new int[]{
             R.string.T1_Ans1,
             R.string.T2_Ans1,
             R.string.T3_Ans1,
     };
-    int[] mBottomButtonArray = new int[]{
+    private int[] mBottomButtonArray = new int[]{
             R.string.T1_Ans2,
             R.string.T2_Ans2,
             R.string.T3_Ans2,
